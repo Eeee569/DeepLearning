@@ -2,11 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f426762b-0bd3-4e0b-b5a7-e09c57c2914d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CNNBasic/BuildData.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CNNBasic/runNetwork.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CNNBasic/loadModel.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RNNBasic/BasicRNN.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LoadingInData/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasicNetwork/basic_model.model" beforeDir="false" afterPath="$PROJECT_DIR$/BasicNetwork/basic_model.model" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNNBasic/logs/Cats-vs-dog-cnn-64x2-1566504893/events.out.tfevents.1566504894.Wolfe-Bertha" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNNBasic/logs/Cats-vs-dog-cnn-64x2-1566504995/events.out.tfevents.1566504996.Wolfe-Bertha" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNNBasic/logs/Cats-vs-dog-cnn-64x2-1566504995/events.out.tfevents.1566504997.Wolfe-Bertha.profile-empty" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNNBasic/logs/Cats-vs-dog-cnn-64x2-1566504995/plugins/profile/2019-08-22_15-16-37/local.trace" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNNBasic/runNetwork.py" beforeDir="false" afterPath="$PROJECT_DIR$/CNNBasic/runNetwork.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNNBasic/testingParameters.py" beforeDir="false" afterPath="$PROJECT_DIR$/CNNBasic/testingParameters.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,7 +25,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/BasicNetwork/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="525">
+            <state relative-caret-position="595">
               <caret line="35" column="32" selection-start-line="35" selection-start-column="32" selection-end-line="35" selection-end-column="32" />
               <folding>
                 <element signature="e#0#23#0" expanded="true" />
@@ -31,7 +37,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CNNBasic/BuildData.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="897">
+            <state relative-caret-position="510">
               <caret line="39" selection-start-line="39" selection-end-line="39" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
@@ -43,15 +49,49 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CNNBasic/runNetwork.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="22" column="65" selection-start-line="22" selection-start-column="65" selection-end-line="22" selection-end-column="65" />
+            <state relative-caret-position="375">
+              <caret line="25" selection-start-line="25" selection-end-line="27" selection-end-column="63" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CNNBasic/loadModel.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="14" column="16" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
+              <folding>
+                <element signature="e#0#10#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/RNNBasic/BasicRNN.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="17" selection-start-line="17" selection-end-line="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CNNBasic/testingParameters.py">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="885">
+              <caret line="59" column="97" selection-start-line="59" selection-start-column="86" selection-end-line="59" selection-end-column="97" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="1" column="15" selection-start-line="1" selection-start-column="15" selection-end-line="1" selection-end-column="15" />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -70,20 +110,22 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/BasicNetwork/main.py" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/LoadingInData/main.py" />
         <option value="$PROJECT_DIR$/LoadingInData/runNetwork.py" />
         <option value="$PROJECT_DIR$/LoadingInData/BuildData.py" />
-        <option value="$PROJECT_DIR$/CNNBasic/runNetwork.py" />
         <option value="$PROJECT_DIR$/CNNBasic/testingParameters.py" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/CNNBasic/runNetwork.py" />
+        <option value="$PROJECT_DIR$/CNNBasic/loadModel.py" />
+        <option value="$PROJECT_DIR$/RNNBasic/BasicRNN.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="2608" />
-    <option name="y" value="887" />
+    <option name="x" value="3209" />
+    <option name="y" value="954" />
     <option name="width" value="1887" />
-    <option name="height" value="1573" />
+    <option name="height" value="1179" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -113,6 +155,11 @@
               <item name="DeepLearning" type="462c0819:PsiDirectoryNode" />
               <item name="Data" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="DeepLearning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DeepLearning" type="462c0819:PsiDirectoryNode" />
+              <item name="RNNBasic" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -122,7 +169,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/CNNBasic/runNetwork.py" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/RNNBasic/BasicRNN.py" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -146,7 +193,7 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="runNetwork" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+    <configuration name="BasicRNN" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="DeepLearning" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -154,12 +201,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="$PROJECT_DIR$/venv/bin/python" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/CNNBasic" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/RNNBasic" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/CNNBasic/runNetwork.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/RNNBasic/BasicRNN.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -180,18 +227,20 @@
       <option name="presentableId" value="Default" />
       <updated>1566330139869</updated>
       <workItem from="1566330141080" duration="7247000" />
-      <workItem from="1566500092062" duration="4903000" />
+      <workItem from="1566500092062" duration="7556000" />
+      <workItem from="1566775874650" duration="2008000" />
+      <workItem from="1566853721960" duration="1176000" />
+      <workItem from="1566931447567" duration="3131000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12150000" />
+    <option name="totallyTimeSpent" value="21118000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="2227" y="885" width="3773" height="1575" extended-state="6" />
-    <editor active="true" />
+    <frame x="2227" y="952" width="3773" height="1575" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12396029" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12557016" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -206,7 +255,7 @@
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Terminal" order="11" weight="0.32987553" />
-      <window_info anchor="bottom" id="Python Console" order="12" />
+      <window_info anchor="bottom" id="Python Console" order="12" weight="0.32987553" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -218,20 +267,15 @@
     <option name="version" value="1" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/DeepLearning$runNetwork.coverage" NAME="runNetwork Coverage Results" MODIFIED="1566504994375" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/CNNBasic" />
+    <SUITE FILE_PATH="coverage/DeepLearning$runNetwork.coverage" NAME="testingParameters Coverage Results" MODIFIED="1566507332591" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/CNNBasic" />
     <SUITE FILE_PATH="coverage/DeepLearning$main.coverage" NAME="main Coverage Results" MODIFIED="1566336927663" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/LoadingInData" />
+    <SUITE FILE_PATH="coverage/DeepLearning$BasicRNN.coverage" NAME="BasicRNN Coverage Results" MODIFIED="1566935086242" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/RNNBasic" />
+    <SUITE FILE_PATH="coverage/DeepLearning$testingParameters.coverage" NAME="runNetwork Coverage Results" MODIFIED="1566776567257" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/CNNBasic" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/CNNBasic/BuildData.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="897">
+        <state relative-caret-position="510">
           <caret line="39" selection-start-line="39" selection-end-line="39" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
@@ -239,9 +283,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="15" selection-start-line="1" selection-start-column="15" selection-end-line="1" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/BasicNetwork/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
+        <state relative-caret-position="595">
           <caret line="35" column="32" selection-start-line="35" selection-start-column="32" selection-end-line="35" selection-end-column="32" />
           <folding>
             <element signature="e#0#23#0" expanded="true" />
@@ -249,15 +300,36 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CNNBasic/runNetwork.py">
+    <entry file="file://$PROJECT_DIR$/CNNBasic/loadModel.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="22" column="65" selection-start-line="22" selection-start-column="65" selection-end-line="22" selection-end-column="65" />
+        <state relative-caret-position="210">
+          <caret line="14" column="16" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/CNNBasic/testingParameters.py">
-      <provider selected="true" editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="885">
+          <caret line="59" column="97" selection-start-line="59" selection-start-column="86" selection-end-line="59" selection-end-column="97" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CNNBasic/runNetwork.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" selection-start-line="25" selection-end-line="27" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RNNBasic/BasicRNN.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
     </entry>
   </component>
   <component name="masterDetails">

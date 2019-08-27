@@ -4,6 +4,10 @@ tb  = tf.keras.callbacks.TensorBoard
 import pickle
 import time
 
+
+
+
+
 pickle_in = open("../Data/X.pickle","rb")
 X = pickle.load(pickle_in)
 pickle_in.close()
@@ -42,4 +46,4 @@ model.add(tf.keras.layers.Dense(1))
 model.add(tf.keras.layers.Activation("sigmoid"))
 
 model.compile(loss="binary_crossentropy",optimizer="adam",metrics=['accuracy'])
-model.fit(X,Y,batch_size=32, epochs = 10, validation_split=0.1,callbacks=[tensorboard])
+model.fit(X,Y,batch_size=50, epochs = 10, validation_split=0.1,callbacks=[tensorboard])
